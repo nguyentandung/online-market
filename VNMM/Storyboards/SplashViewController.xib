@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="SplashViewController" id="i5M-Pr-FkT" colorLabel="IBBuiltInLabel-Yellow">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 0.0.01" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVg-7S-CMz">
+                    <rect key="frame" x="16" y="767" width="343" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="CuC-2W-cvr"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="fbZ-zo-k93"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.63529411759999999" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="techres_order_long_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="1LP-5e-y8H">
+                    <rect key="frame" x="87.666666666666686" y="381" width="200" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Dfg-k6-HjN"/>
+                        <constraint firstAttribute="height" constant="50" id="q6F-Dq-i0B"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BVg-7S-CMz" secondAttribute="trailing" constant="16" id="1AL-Yh-ISs"/>
+                <constraint firstItem="BVg-7S-CMz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="4Uu-7g-zeS"/>
+                <constraint firstItem="1LP-5e-y8H" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="B2p-XP-A6K"/>
+                <constraint firstAttribute="bottom" secondItem="BVg-7S-CMz" secondAttribute="bottom" constant="24" id="MOJ-p9-U8J"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BVg-7S-CMz" secondAttribute="trailing" constant="16" id="UDG-GD-Ux8"/>
+                <constraint firstItem="BVg-7S-CMz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="iZ2-BB-8GO"/>
+                <constraint firstItem="1LP-5e-y8H" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="l7o-1Z-1Da"/>
+            </constraints>
+            <point key="canvasLocation" x="29.600000000000001" y="-62.068965517241381"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="techres_order_long_logo.png" width="425.5" height="125"/>
+    </resources>
+</document>

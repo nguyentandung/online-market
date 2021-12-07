@@ -1,0 +1,193 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - BmoViewPager (5.1.0)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - CircleBar (0.8.2)
+  - CircleProgressView (1.2.0)
+  - CropViewController (2.6.0)
+  - CTShowcase (2.4.0)
+  - DKCamera (1.6.7)
+  - DKImagePickerController (4.3.2):
+    - DKImagePickerController/Camera (= 4.3.2)
+    - DKImagePickerController/Core (= 4.3.2)
+    - DKImagePickerController/ImageDataManager (= 4.3.2)
+    - DKImagePickerController/InlineCamera (= 4.3.2)
+    - DKImagePickerController/PhotoEditor (= 4.3.2)
+    - DKImagePickerController/PhotoGallery (= 4.3.2)
+    - DKImagePickerController/Resource (= 4.3.2)
+  - DKImagePickerController/Camera (4.3.2):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/Core (4.3.2):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.2)
+  - DKImagePickerController/InlineCamera (4.3.2):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoEditor (4.3.2):
+    - CropViewController (~> 2.5)
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoGallery (4.3.2):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.2)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DropDown (2.3.13)
+  - GSPlayer (0.2.25)
+  - ImageSlideshow (1.8.3):
+    - ImageSlideshow/Core (= 1.8.3)
+  - ImageSlideshow/Alamofire (1.8.3):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.8.3)
+  - Kingfisher (6.3.0)
+  - Loaf (0.7.0)
+  - ObjectMapper (3.5.3)
+  - paper-onboarding (6.1.5)
+  - PryntTrimmerView (4.0.2)
+  - ReachabilitySwift (3)
+  - Realm (10.7.3):
+    - Realm/Headers (= 10.7.3)
+  - Realm/Headers (10.7.3)
+  - RealmSwift (10.7.3):
+    - Realm (= 10.7.3)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SkeletonView (1.15.0)
+  - SKPhotoBrowser (6.1.0)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
+  - SteviaLayout (4.7.3)
+  - SwiftyGif (5.4.0)
+  - VIMediaCache (0.4)
+  - YPImagePicker (4.5.0):
+    - PryntTrimmerView (~> 4.0.2)
+    - SteviaLayout (~> 4.7.3)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (~> 5.0)
+  - BmoViewPager
+  - Charts (~> 3.3.0)
+  - CircleBar
+  - CircleProgressView (~> 1.0)
+  - CTShowcase (~> 2.4)
+  - DKImagePickerController
+  - DropDown
+  - GSPlayer
+  - ImageSlideshow (~> 1.8.3)
+  - ImageSlideshow/Alamofire
+  - Kingfisher (~> 6.0)
+  - Loaf
+  - paper-onboarding
+  - ReachabilitySwift (~> 3)
+  - RealmSwift
+  - SkeletonView
+  - SKPhotoBrowser
+  - Socket.IO-Client-Swift
+  - VIMediaCache
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireObjectMapper
+    - BmoViewPager
+    - Charts
+    - CircleBar
+    - CircleProgressView
+    - CropViewController
+    - CTShowcase
+    - DKCamera
+    - DKImagePickerController
+    - DKPhotoGallery
+    - DropDown
+    - GSPlayer
+    - ImageSlideshow
+    - Kingfisher
+    - Loaf
+    - ObjectMapper
+    - paper-onboarding
+    - PryntTrimmerView
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SkeletonView
+    - SKPhotoBrowser
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SteviaLayout
+    - SwiftyGif
+    - VIMediaCache
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  BmoViewPager: 49c83f4f8e9d0a6363f319453b8770572730f758
+  Charts: e0dd4cd8f257bccf98407b58183ddca8e8d5b578
+  CircleBar: 8e17d2090e6e319b518010535a3145fb8fd68c22
+  CircleProgressView: 6b5b091d59dc5e5d2fda84e637a40498cdc39937
+  CropViewController: 7093b39ec3cb508531b22d35773e06cecd7378d8
+  CTShowcase: d6a7933f0724dadc12399b4d6d4815b419f1eb65
+  DKCamera: a902b66921fca14b7a75266feb8c7568aa7caa71
+  DKImagePickerController: b5eb7f7a388e4643264105d648d01f727110fc3d
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  GSPlayer: 3b6850a0f26af54967396d637c2e4646dc451013
+  ImageSlideshow: 4694d7d699a1549582e7cc631fb392d8f91630f3
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  Loaf: d69937cd00649f3fa260beb8b7aef0a1feb861ef
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  paper-onboarding: fede1799b1da6988f3788e3b71654583c6f3bce1
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: 472ea9ad72cee02df140dfd2926f482df6addbd2
+  RealmSwift: 7462f44bc04b61505ef70e4863ee7ce48fa12ede
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SkeletonView: cac18a3ac4f893b09d99e65072d806ef08377aae
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SwiftyGif: 5d4af95df24caf1c570dbbcb32a3b8a0763bc6d7
+  VIMediaCache: aa650f82cb114c68a343beb4e67416cf5eb2f3a2
+  YPImagePicker: 6f410f475bd22fa8cd430495b54d4b2f15865c2d
+
+PODFILE CHECKSUM: fe90460fa638f5692c3927bcc771998274717870
+
+COCOAPODS: 1.10.0
